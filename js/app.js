@@ -7,8 +7,8 @@ $( _ => {
         }
 
         const viewList = $('#studentList');
-        json.forEach((e)=>{
-            viewList.append('<li>' + e.name + '<input type="checkbox"></li>');
+        json.forEach((data)=>{
+            viewList.append('<li>' + data.name + '<input type="checkbox"></li>');
         });
     });
 });
